@@ -428,22 +428,22 @@
 		"workspaceContains:**/swa-cli.config.json"
 	],
 	"dependencies": {
-		"@octokit/rest": "^21.1.0",
-		"buffer": "^6.0.3",
-		"dayjs": "^1.11.13",
-		"git-url-parse": "^16.0.0",
-		"semver": "^7.7.1",
-		"yaml": "^2.7.0"
+		"@octokit/rest": "21.1.0",
+		"buffer": "6.0.3",
+		"dayjs": "1.11.13",
+		"git-url-parse": "16.0.0",
+		"semver": "7.7.1",
+		"yaml": "2.7.0"
 	},
 	"devDependencies": {
-		"@octokit/types": "^13.8.0",
-		"@types/fs-extra": "^11.0.4",
-		"@types/git-url-parse": "^9.0.3",
-		"@types/node": "^22.13.1",
-		"@types/semver": "^7.5.8",
-		"fs-extra": "^11.3.0",
-		"glob": "^11.0.1",
-		"process": "^0.11.10"
+		"@octokit/types": "13.8.0",
+		"@types/fs-extra": "11.0.4",
+		"@types/git-url-parse": "9.0.3",
+		"@types/node": "22.13.1",
+		"@types/semver": "7.5.8",
+		"fs-extra": "11.3.0",
+		"glob": "11.0.1",
+		"process": "0.11.10"
 	},
 	"extensionDependencies": [
 		"ms-azuretools.vscode-azureresourcegroups"
