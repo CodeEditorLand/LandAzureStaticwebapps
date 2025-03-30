@@ -1,7 +1,29 @@
 {
 	"name": "@codeeditorland/azurestaticwebapps",
 	"displayName": "Azure Static Web Apps",
+	"version": "0.0.1",
+	"private": false,
 	"description": "%staticWebApps.description%",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandAzureStaticwebapps#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandAzureStaticwebapps/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandAzureStaticwebapps.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "./main.js",
 	"browser": "./dist/web/extension.bundle.js",
 	"scripts": {
@@ -9,6 +31,7 @@
 		"cleanReadme": "gulp cleanReadme",
 		"compile": "tsc -watch",
 		"prepare": "husky install",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"webpack": "npm run build && gulp webpack-dev",
 		"webpack-prod": "npm run build && gulp webpack-prod",
 		"webpack-profile": "webpack --profile --json --mode production > webpack-stats.json && echo Use http://webpack.github.io/analyse to analyze the stats"
@@ -437,6 +460,7 @@
 	},
 	"devDependencies": {
 		"@octokit/types": "13.10.0",
+		"@playform/build": "0.2.1",
 		"@types/fs-extra": "11.0.4",
 		"@types/git-url-parse": "9.0.3",
 		"@types/node": "22.13.14",
@@ -448,6 +472,9 @@
 	"extensionDependencies": [
 		"ms-azuretools.vscode-azureresourcegroups"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"icon": "resources/azure-staticwebapps.png",
 	"galleryBanner": {
 		"color": "#3a3d41",
