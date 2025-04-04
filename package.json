@@ -460,7 +460,7 @@
 	},
 	"devDependencies": {
 		"@octokit/types": "13.10.0",
-		"@playform/build": "0.2.1",
+		"@playform/build": "0.2.2",
 		"@types/fs-extra": "11.0.4",
 		"@types/git-url-parse": "16.0.0",
 		"@types/node": "22.14.0",
