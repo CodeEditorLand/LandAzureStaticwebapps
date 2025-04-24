@@ -466,7 +466,7 @@
 		"@types/node": "22.14.1",
 		"@types/semver": "7.7.0",
 		"fs-extra": "11.3.0",
-		"glob": "11.0.1",
+		"glob": "11.0.2",
 		"process": "0.11.10"
 	},
 	"extensionDependencies": [
